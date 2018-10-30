@@ -1,0 +1,16 @@
+Tue 10/30/18  03:08:10 PM
+
+directory: dcs0ias ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile026.txt: good (length of tour is 1936)
+TourfileB...
+NEWAISearchfile012.txt: no tour-file present
+NEWAISearchfile026.txt: no tour-file present
+
+Best tours:
+
+NEWAISearchfile012.txt: best tour has length 56
+NEWAISearchfile012.txt winners : dcs0ias
+NEWAISearchfile026.txt: best tour has length 1936
+NEWAISearchfile026.txt winners : dcs0ias
