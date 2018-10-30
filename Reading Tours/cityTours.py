@@ -14,10 +14,6 @@ def readFile(fName):
     intData = intData[1:]
     return(intData, size)
 
-def printArray(a):
-    for x in a:
-        print(x)
-
 def toArray(size, cityData):
     cities = createEmpty(size)
     print(cityData)
