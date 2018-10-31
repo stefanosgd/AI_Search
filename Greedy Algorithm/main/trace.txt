@@ -1,16 +1,37 @@
-Tue 10/30/18  03:08:10 PM
+Wed 10/31/18  09:10:32 AM
 
 directory: dcs0ias ...
 TourfileA...
 NEWAISearchfile012.txt: good (length of tour is 56)
-NEWAISearchfile026.txt: good (length of tour is 1936)
-TourfileB...
-NEWAISearchfile012.txt: no tour-file present
-NEWAISearchfile026.txt: no tour-file present
+NEWAISearchfile017.txt: good (length of tour is 1628)
+NEWAISearchfile021.txt: good (length of tour is 3092)
+NEWAISearchfile026.txt: good (length of tour is 1827)
+NEWAISearchfile042.txt: good (length of tour is 1430)
+NEWAISearchfile048.txt: good (length of tour is 15172)
+NEWAISearchfile058.txt: good (length of tour is 27384)
+NEWAISearchfile175.txt: good (length of tour is 21901)
+NEWAISearchfile180.txt: good (length of tour is 1950)
+NEWAISearchfile535.txt: good (length of tour is 50084)
 
 Best tours:
 
 NEWAISearchfile012.txt: best tour has length 56
 NEWAISearchfile012.txt winners : dcs0ias
-NEWAISearchfile026.txt: best tour has length 1936
+NEWAISearchfile017.txt: best tour has length 1628
+NEWAISearchfile017.txt winners : dcs0ias
+NEWAISearchfile021.txt: best tour has length 3092
+NEWAISearchfile021.txt winners : dcs0ias
+NEWAISearchfile026.txt: best tour has length 1827
 NEWAISearchfile026.txt winners : dcs0ias
+NEWAISearchfile042.txt: best tour has length 1430
+NEWAISearchfile042.txt winners : dcs0ias
+NEWAISearchfile048.txt: best tour has length 15172
+NEWAISearchfile048.txt winners : dcs0ias
+NEWAISearchfile058.txt: best tour has length 27384
+NEWAISearchfile058.txt winners : dcs0ias
+NEWAISearchfile175.txt: best tour has length 21901
+NEWAISearchfile175.txt winners : dcs0ias
+NEWAISearchfile180.txt: best tour has length 1950
+NEWAISearchfile180.txt winners : dcs0ias
+NEWAISearchfile535.txt: best tour has length 50084
+NEWAISearchfile535.txt winners : dcs0ias
