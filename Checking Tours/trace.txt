@@ -1,6 +1,6 @@
-Wed 10/31/18  09:10:32 AM
+Fri 11/02/18  02:45:47 PM
 
-directory: dcs0ias ...
+directory: Greedy ...
 TourfileA...
 NEWAISearchfile012.txt: good (length of tour is 56)
 NEWAISearchfile017.txt: good (length of tour is 1628)
@@ -16,22 +16,22 @@ NEWAISearchfile535.txt: good (length of tour is 50084)
 Best tours:
 
 NEWAISearchfile012.txt: best tour has length 56
-NEWAISearchfile012.txt winners : dcs0ias
+NEWAISearchfile012.txt winners : Greedy
 NEWAISearchfile017.txt: best tour has length 1628
-NEWAISearchfile017.txt winners : dcs0ias
+NEWAISearchfile017.txt winners : Greedy
 NEWAISearchfile021.txt: best tour has length 3092
-NEWAISearchfile021.txt winners : dcs0ias
+NEWAISearchfile021.txt winners : Greedy
 NEWAISearchfile026.txt: best tour has length 1827
-NEWAISearchfile026.txt winners : dcs0ias
+NEWAISearchfile026.txt winners : Greedy
 NEWAISearchfile042.txt: best tour has length 1430
-NEWAISearchfile042.txt winners : dcs0ias
+NEWAISearchfile042.txt winners : Greedy
 NEWAISearchfile048.txt: best tour has length 15172
-NEWAISearchfile048.txt winners : dcs0ias
+NEWAISearchfile048.txt winners : Greedy
 NEWAISearchfile058.txt: best tour has length 27384
-NEWAISearchfile058.txt winners : dcs0ias
+NEWAISearchfile058.txt winners : Greedy
 NEWAISearchfile175.txt: best tour has length 21901
-NEWAISearchfile175.txt winners : dcs0ias
+NEWAISearchfile175.txt winners : Greedy
 NEWAISearchfile180.txt: best tour has length 1950
-NEWAISearchfile180.txt winners : dcs0ias
+NEWAISearchfile180.txt winners : Greedy
 NEWAISearchfile535.txt: best tour has length 50084
-NEWAISearchfile535.txt winners : dcs0ias
+NEWAISearchfile535.txt winners : Greedy
