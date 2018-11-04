@@ -1,4 +1,4 @@
-Fri 11/02/18  02:45:47 PM
+Sun 11/04/18  01:23:21 PM
 
 directory: Greedy ...
 TourfileA...
@@ -13,25 +13,38 @@ NEWAISearchfile175.txt: good (length of tour is 21901)
 NEWAISearchfile180.txt: good (length of tour is 1950)
 NEWAISearchfile535.txt: good (length of tour is 50084)
 
+directory: Simulated Annealing ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1504)
+NEWAISearchfile021.txt: good (length of tour is 2549)
+NEWAISearchfile026.txt: good (length of tour is 1475)
+NEWAISearchfile042.txt: good (length of tour is 1060)
+NEWAISearchfile048.txt: good (length of tour is 12620)
+NEWAISearchfile058.txt: good (length of tour is 25597)
+NEWAISearchfile175.txt: good (length of tour is 21524)
+NEWAISearchfile180.txt: good (length of tour is 1950)
+NEWAISearchfile535.txt: good (length of tour is 49865)
+
 Best tours:
 
 NEWAISearchfile012.txt: best tour has length 56
-NEWAISearchfile012.txt winners : Greedy
-NEWAISearchfile017.txt: best tour has length 1628
-NEWAISearchfile017.txt winners : Greedy
-NEWAISearchfile021.txt: best tour has length 3092
-NEWAISearchfile021.txt winners : Greedy
-NEWAISearchfile026.txt: best tour has length 1827
-NEWAISearchfile026.txt winners : Greedy
-NEWAISearchfile042.txt: best tour has length 1430
-NEWAISearchfile042.txt winners : Greedy
-NEWAISearchfile048.txt: best tour has length 15172
-NEWAISearchfile048.txt winners : Greedy
-NEWAISearchfile058.txt: best tour has length 27384
-NEWAISearchfile058.txt winners : Greedy
-NEWAISearchfile175.txt: best tour has length 21901
-NEWAISearchfile175.txt winners : Greedy
+NEWAISearchfile012.txt winners : Greedy, Simulated Annealing
+NEWAISearchfile017.txt: best tour has length 1504
+NEWAISearchfile017.txt winners : Simulated Annealing
+NEWAISearchfile021.txt: best tour has length 2549
+NEWAISearchfile021.txt winners : Simulated Annealing
+NEWAISearchfile026.txt: best tour has length 1475
+NEWAISearchfile026.txt winners : Simulated Annealing
+NEWAISearchfile042.txt: best tour has length 1060
+NEWAISearchfile042.txt winners : Simulated Annealing
+NEWAISearchfile048.txt: best tour has length 12620
+NEWAISearchfile048.txt winners : Simulated Annealing
+NEWAISearchfile058.txt: best tour has length 25597
+NEWAISearchfile058.txt winners : Simulated Annealing
+NEWAISearchfile175.txt: best tour has length 21524
+NEWAISearchfile175.txt winners : Simulated Annealing
 NEWAISearchfile180.txt: best tour has length 1950
-NEWAISearchfile180.txt winners : Greedy
-NEWAISearchfile535.txt: best tour has length 50084
-NEWAISearchfile535.txt winners : Greedy
+NEWAISearchfile180.txt winners : Greedy, Simulated Annealing
+NEWAISearchfile535.txt: best tour has length 49865
+NEWAISearchfile535.txt winners : Simulated Annealing
