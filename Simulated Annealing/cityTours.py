@@ -22,7 +22,6 @@ def toArray(size, cityData):
     count = 0
     for i in range(0, size-1):
         for j in range(i+1, size):
-            #print(cityData[i])
             cities[i][j] = cityData[count]
             cities[j][i] = cityData[count]
             count += 1
@@ -36,9 +35,9 @@ class SimAnneal:
         self.cities = cities
         self.N = size
         self.T = math.sqrt(self.N) if T == -1 else T
-        self.alpha = 0.9995 if alpha == -1 else alpha
-        self.stopping_temperature = 0.00000000000001 if stopping_T == -1 else stopping_T
-        self.stopping_iter = 1 if stopping_iter == -1 else stopping_iter
+        self.alpha = 0.999 if alpha == -1 else alpha
+        self.stopping_temperature = 0.000001 if stopping_T == -1 else stopping_T
+        self.stopping_iter = 10000 if stopping_iter == -1 else stopping_iter
         self.iteration = 1
 
         self.dist_matrix = self.cities
@@ -50,8 +49,6 @@ class SimAnneal:
         self.cur_fitness = self.fitness(self.cur_solution)
         self.initial_fitness = self.cur_fitness
         self.best_fitness = self.cur_fitness
-
-        self.fitness_list = [self.cur_fitness]
 
     def initial_solution(self, start):
         """
@@ -115,24 +112,17 @@ class SimAnneal:
             self.accept(candidate)
             self.T *= self.alpha
             self.iteration += 1
-            self.fitness_list.append(self.cur_fitness)
-
-##        if self.T <= self.stopping_temperature:
-##            print('Min temperature reached')
-##        elif self.iteration == self.stopping_iter:
-##            print('Max iterations reached')
         return self.best_fitness, self.best_solution
 
 
 def run():
     start_time = time.time()
-    data, size = readFile('C:/Users/Stefanos Demetriou/Documents/Year 2/Software Methodologies/AI Search/Assignment/NEWAISearchfile535.txt')
+    data, size = readFile('C:/Users/Stefanos Demetriou/Documents/Year 2/Software Methodologies/AI Search/Assignment/NEWAISearchfile180.txt')
     cities = toArray(size, data)
     print(np.matrix(cities))
     best = 10000000
     best_tour = []
     for i in range(size):
-##        print(i)
         sa = SimAnneal(i, cities, size, stopping_iter = 100000)
         current, current_tour = sa.anneal()
         if current < best:
