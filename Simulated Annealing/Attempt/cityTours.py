@@ -19,7 +19,7 @@ def read_file(f_name):
 
 
 def write_file(f_name, size, best, best_tour):
-    new_file = open("..\..\Checking Tours\Simulated Annealing\TourfileB\tourNEW"+f_name+".txt", 'w+')
+    new_file = open("../../Checking Tours/Simulated Annealing/TourfileB/tourNEW"+f_name+".txt", 'w+')
     new_file.write("NAME = " + f_name + ",")
     new_file.write("\nTOURSIZE = " + str(size) + ",")
     new_file.write("\nLENGTH = " + str(best) + ",\n")
@@ -175,7 +175,7 @@ class SimulatedAnneal:
 
 
 def run(tour_length):
-    data, size = read_file("..\..\NEW"+tour_length+".txt")
+    data, size = read_file("NEW"+tour_length+".txt")
     cities = to_array(size, data)
     best = math.inf
     best_tour = []
