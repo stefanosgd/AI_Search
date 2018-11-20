@@ -152,7 +152,7 @@ class SimulatedAnneal:
         Execute the algorithm
         """
         # while self.temp >= self.stopping_temperature:
-        while self.iterations < 3_000_000:
+        while self.iterations < 3000000:
             candidate = list(self.cur_solution)
             l = random.randint(1, self.file_size - 1)  # This is N-1
             i = random.randint(0, self.file_size - l)  # This is N-L
