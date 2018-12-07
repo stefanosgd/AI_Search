@@ -1,0 +1,50 @@
+Tue 12/04/18  11:45:40 AM
+
+directory: Genetic ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1564)
+NEWAISearchfile021.txt: good (length of tour is 2549)
+NEWAISearchfile026.txt: good (length of tour is 1497)
+NEWAISearchfile042.txt: good (length of tour is 1229)
+NEWAISearchfile048.txt: good (length of tour is 17842)
+NEWAISearchfile058.txt: good (length of tour is 33748)
+NEWAISearchfile175.txt: good (length of tour is 33623)
+NEWAISearchfile180.txt: good (length of tour is 232050)
+NEWAISearchfile535.txt: good (length of tour is 114461)
+
+directory: Old Best ...
+TourfileB...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1444)
+NEWAISearchfile021.txt: good (length of tour is 2799)
+NEWAISearchfile026.txt: good (length of tour is 1530)
+NEWAISearchfile042.txt: good (length of tour is 1425)
+NEWAISearchfile048.txt: good (length of tour is 19000)
+NEWAISearchfile058.txt: good (length of tour is 38702)
+NEWAISearchfile175.txt: good (length of tour is 36803)
+NEWAISearchfile180.txt: good (length of tour is 326000)
+NEWAISearchfile535.txt: good (length of tour is 127433)
+
+Best tours:
+
+NEWAISearchfile012.txt: best tour has length 56
+NEWAISearchfile012.txt winners : Genetic, Old Best
+NEWAISearchfile017.txt: best tour has length 1444
+NEWAISearchfile017.txt winners : Old Best
+NEWAISearchfile021.txt: best tour has length 2549
+NEWAISearchfile021.txt winners : Genetic
+NEWAISearchfile026.txt: best tour has length 1497
+NEWAISearchfile026.txt winners : Genetic
+NEWAISearchfile042.txt: best tour has length 1229
+NEWAISearchfile042.txt winners : Genetic
+NEWAISearchfile048.txt: best tour has length 17842
+NEWAISearchfile048.txt winners : Genetic
+NEWAISearchfile058.txt: best tour has length 33748
+NEWAISearchfile058.txt winners : Genetic
+NEWAISearchfile175.txt: best tour has length 33623
+NEWAISearchfile175.txt winners : Genetic
+NEWAISearchfile180.txt: best tour has length 232050
+NEWAISearchfile180.txt winners : Genetic
+NEWAISearchfile535.txt: best tour has length 114461
+NEWAISearchfile535.txt winners : Genetic

@@ -1,0 +1,89 @@
+Mon 11/26/18  11:56:41 AM
+
+directory: Best ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1444)
+NEWAISearchfile021.txt: good (length of tour is 2549)
+NEWAISearchfile026.txt: good (length of tour is 1473)
+NEWAISearchfile042.txt: good (length of tour is 1055)
+NEWAISearchfile048.txt: good (length of tour is 12313)
+NEWAISearchfile058.txt: good (length of tour is 25395)
+NEWAISearchfile175.txt: good (length of tour is 21458)
+NEWAISearchfile180.txt: good (length of tour is 1950)
+NEWAISearchfile535.txt: good (length of tour is 48768)
+
+directory: Temp_100 ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1444)
+NEWAISearchfile021.txt: good (length of tour is 2549)
+NEWAISearchfile026.txt: good (length of tour is 1473)
+NEWAISearchfile042.txt: good (length of tour is 1056)
+NEWAISearchfile048.txt: good (length of tour is 12519)
+NEWAISearchfile058.txt: good (length of tour is 25395)
+NEWAISearchfile175.txt: good (length of tour is 21477)
+NEWAISearchfile180.txt: good (length of tour is 1950)
+NEWAISearchfile535.txt: good (length of tour is 48892)
+
+directory: Temp_Sqrt ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1592)
+NEWAISearchfile021.txt: good (length of tour is 2611)
+NEWAISearchfile026.txt: good (length of tour is 1473)
+NEWAISearchfile042.txt: good (length of tour is 1055)
+NEWAISearchfile048.txt: good (length of tour is 13545)
+NEWAISearchfile058.txt: good (length of tour is 25734)
+NEWAISearchfile175.txt: good (length of tour is 21458)
+NEWAISearchfile180.txt: good (length of tour is 1960)
+NEWAISearchfile535.txt: good (length of tour is 48904)
+
+directory: Temp_Sum ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1444)
+NEWAISearchfile021.txt: good (length of tour is 2549)
+NEWAISearchfile026.txt: good (length of tour is 1473)
+NEWAISearchfile042.txt: good (length of tour is 1055)
+NEWAISearchfile048.txt: good (length of tour is 12422)
+NEWAISearchfile058.txt: good (length of tour is 25395)
+NEWAISearchfile175.txt: good (length of tour is 21479)
+NEWAISearchfile180.txt: good (length of tour is 1980)
+NEWAISearchfile535.txt: good (length of tour is 49458)
+
+directory: Temp_Sum2 ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1444)
+NEWAISearchfile021.txt: good (length of tour is 2549)
+NEWAISearchfile026.txt: good (length of tour is 1473)
+NEWAISearchfile042.txt: good (length of tour is 1055)
+NEWAISearchfile048.txt: good (length of tour is 12224)
+NEWAISearchfile058.txt: good (length of tour is 25395)
+NEWAISearchfile175.txt: good (length of tour is 21485)
+NEWAISearchfile180.txt: good (length of tour is 1950)
+NEWAISearchfile535.txt: good (length of tour is 48768)
+
+Best tours:
+
+NEWAISearchfile012.txt: best tour has length 56
+NEWAISearchfile012.txt winners : Best, Temp_100, Temp_Sqrt, Temp_Sum, Temp_Sum2
+NEWAISearchfile017.txt: best tour has length 1444
+NEWAISearchfile017.txt winners : Best, Temp_100, Temp_Sum, Temp_Sum2
+NEWAISearchfile021.txt: best tour has length 2549
+NEWAISearchfile021.txt winners : Best, Temp_100, Temp_Sum, Temp_Sum2
+NEWAISearchfile026.txt: best tour has length 1473
+NEWAISearchfile026.txt winners : Best, Temp_100, Temp_Sqrt, Temp_Sum, Temp_Sum2
+NEWAISearchfile042.txt: best tour has length 1055
+NEWAISearchfile042.txt winners : Best, Temp_Sqrt, Temp_Sum, Temp_Sum2
+NEWAISearchfile048.txt: best tour has length 12224
+NEWAISearchfile048.txt winners : Temp_Sum2
+NEWAISearchfile058.txt: best tour has length 25395
+NEWAISearchfile058.txt winners : Best, Temp_100, Temp_Sum, Temp_Sum2
+NEWAISearchfile175.txt: best tour has length 21458
+NEWAISearchfile175.txt winners : Best, Temp_Sqrt
+NEWAISearchfile180.txt: best tour has length 1950
+NEWAISearchfile180.txt winners : Best, Temp_100, Temp_Sum2
+NEWAISearchfile535.txt: best tour has length 48768
+NEWAISearchfile535.txt winners : Best, Temp_Sum2

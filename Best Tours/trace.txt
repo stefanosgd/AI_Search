@@ -1,0 +1,79 @@
+Thu 11/29/18  09:52:37 PM
+
+directory: Genetic ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 67)
+NEWAISearchfile017.txt: good (length of tour is 2219)
+NEWAISearchfile021.txt: good (length of tour is 4314)
+NEWAISearchfile026.txt: good (length of tour is 1998)
+NEWAISearchfile042.txt: good (length of tour is 2008)
+NEWAISearchfile048.txt: good (length of tour is 32850)
+NEWAISearchfile058.txt: good (length of tour is 84020)
+NEWAISearchfile175.txt: good (length of tour is 44032)
+NEWAISearchfile180.txt: good (length of tour is 668510)
+NEWAISearchfile535.txt: good (length of tour is 147672)
+
+directory: Genetic 2 ...
+TourfileB...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1678)
+NEWAISearchfile021.txt: good (length of tour is 3181)
+NEWAISearchfile026.txt: good (length of tour is 1677)
+NEWAISearchfile042.txt: good (length of tour is 1755)
+NEWAISearchfile048.txt: good (length of tour is 25571)
+NEWAISearchfile058.txt: good (length of tour is 57870)
+NEWAISearchfile175.txt: good (length of tour is 41145)
+NEWAISearchfile180.txt: good (length of tour is 500890)
+NEWAISearchfile535.txt: good (length of tour is 139582)
+
+directory: Genetic 3 ...
+TourfileB...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1592)
+NEWAISearchfile021.txt: good (length of tour is 3181)
+NEWAISearchfile026.txt: good (length of tour is 1635)
+NEWAISearchfile042.txt: good (length of tour is 1612)
+NEWAISearchfile048.txt: good (length of tour is 24318)
+NEWAISearchfile058.txt: good (length of tour is 52607)
+NEWAISearchfile175.txt: good (length of tour is 40034)
+NEWAISearchfile180.txt: good (length of tour is 476880)
+NEWAISearchfile535.txt: good (length of tour is 137541)
+
+directory: Genetic 4 ...
+TourfileB...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1444)
+NEWAISearchfile021.txt: good (length of tour is 2799)
+NEWAISearchfile026.txt: good (length of tour is 1530)
+NEWAISearchfile042.txt: good (length of tour is 1425)
+NEWAISearchfile048.txt: good (length of tour is 20427)
+NEWAISearchfile058.txt: good (length of tour is 38702)
+NEWAISearchfile175.txt: good (length of tour is 36803)
+NEWAISearchfile180.txt: good (length of tour is 326000)
+NEWAISearchfile535.txt: good (length of tour is 127433)
+
+directory: Simulated Annealing ...
+error: no sets of tour-files are present
+
+Best tours:
+
+NEWAISearchfile012.txt: best tour has length 56
+NEWAISearchfile012.txt winners : Genetic 2, Genetic 3, Genetic 4
+NEWAISearchfile017.txt: best tour has length 1444
+NEWAISearchfile017.txt winners : Genetic 4
+NEWAISearchfile021.txt: best tour has length 2799
+NEWAISearchfile021.txt winners : Genetic 4
+NEWAISearchfile026.txt: best tour has length 1530
+NEWAISearchfile026.txt winners : Genetic 4
+NEWAISearchfile042.txt: best tour has length 1425
+NEWAISearchfile042.txt winners : Genetic 4
+NEWAISearchfile048.txt: best tour has length 20427
+NEWAISearchfile048.txt winners : Genetic 4
+NEWAISearchfile058.txt: best tour has length 38702
+NEWAISearchfile058.txt winners : Genetic 4
+NEWAISearchfile175.txt: best tour has length 36803
+NEWAISearchfile175.txt winners : Genetic 4
+NEWAISearchfile180.txt: best tour has length 326000
+NEWAISearchfile180.txt winners : Genetic 4
+NEWAISearchfile535.txt: best tour has length 127433
+NEWAISearchfile535.txt winners : Genetic 4

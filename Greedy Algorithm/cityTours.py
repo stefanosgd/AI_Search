@@ -16,7 +16,7 @@ def readFile(fName):
 
 def toArray(size, cityData):
     cities = createEmpty(size)
-    print(cityData)
+    #print(cityData)
     print(size)
     count = 0
     for i in range(0, size-1):
@@ -25,34 +25,39 @@ def toArray(size, cityData):
             cities[i][j] = cityData[count]
             cities[j][i] = cityData[count]
             count += 1
-    print(np.matrix(cities))
+    #print(np.matrix(cities))
     return cities
 
-def createTourGreedy(size, cityDistance):
+def createTourGreedy(size, cityDistance, start):
     tour = createEmptyTour(size)
-    currentCity=0
-    shortest = 100000
+    tourOrder = ""
+    tourOrderSize = ""
+    currentCity=start
     nextCity = 0
     visited = 0
     tourLength = 0
+    shortest = 100000
     while (visited<size-1):
-        print(currentCity+1 , ",")
+        tourOrder = tourOrder + str(currentCity+1) + ","
         for i in range(0,size):
            # print(cityDistance[currentCity][i])
-            if ((cityDistance[currentCity][i] < shortest) & (currentCity != i)):
-                if (tour[i] == 0):
-                    shortest = cityDistance[currentCity][i]
-                    nextCity = i
-        tour[currentCity] = nextCity
+            if ((cityDistance[currentCity][i] < shortest) & (currentCity != i) & (tour[i] == 0)):
+                shortest = cityDistance[currentCity][i]
+                nextCity = i
+        tour[currentCity] = 1
         currentCity = nextCity
         tourLength += shortest
+        tourOrderSize = tourOrderSize + str(shortest) + ","
         shortest = 100000
         visited += 1
         #print(visited)
-    tourLength += cityDistance[currentCity][0]
-    print(currentCity+1)
-    print()
-    print(tourLength)
+    tourLength += cityDistance[currentCity][start]
+    tourOrder = tourOrder + str(currentCity+1)
+    #print(tourLength)
+    #print(tourOrder)
+    #print(tourOrderSize)
+    #print()
+    return (tourLength, tourOrder)
 
 def createEmptyTour(s):
     return [0 for x in range(0,s)]
@@ -61,6 +66,15 @@ def createEmpty(s):
     return [[0 for x in range(0,s)]for y in range(0,s)]
 
 def run():    
-    data, size = readFile('NEWAISearchfile026.txt')
+    data, size = readFile('C:/Users/Stefanos Demetriou/Documents/Year 2/Software Methodologies/AI Search/Assignment/NEWAISearchfile180.txt')
     cities = toArray(size, data)
-    createTourGreedy(size, cities)
+    startingCity = 0
+    lengthFound = 0
+    shortest = 1000000000000
+    for startingCity in range(0,size):
+        lengthFound, tour = createTourGreedy(size, cities, startingCity)
+        if lengthFound < shortest:
+            shortest = lengthFound
+            finalTour = tour
+    print(shortest)
+    print(finalTour)

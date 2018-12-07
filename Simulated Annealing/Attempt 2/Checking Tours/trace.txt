@@ -1,0 +1,48 @@
+Tue 11/20/18  08:37:39 PM
+
+directory: Simulated Annealing ...
+TourfileA...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1564)
+NEWAISearchfile021.txt: good (length of tour is 2694)
+NEWAISearchfile026.txt: good (length of tour is 1479)
+NEWAISearchfile042.txt: good (length of tour is 1064)
+NEWAISearchfile048.txt: good (length of tour is 13114)
+NEWAISearchfile058.txt: good (length of tour is 26220)
+NEWAISearchfile175.txt: good (length of tour is 21585)
+NEWAISearchfile180.txt: good (length of tour is 1950)
+NEWAISearchfile535.txt: good (length of tour is 49124)
+TourfileB...
+NEWAISearchfile012.txt: good (length of tour is 56)
+NEWAISearchfile017.txt: good (length of tour is 1444)
+NEWAISearchfile021.txt: good (length of tour is 2549)
+NEWAISearchfile026.txt: good (length of tour is 1473)
+NEWAISearchfile042.txt: good (length of tour is 1065)
+NEWAISearchfile048.txt: good (length of tour is 12670)
+NEWAISearchfile058.txt: good (length of tour is 25395)
+NEWAISearchfile175.txt: good (length of tour is 21639)
+NEWAISearchfile180.txt: good (length of tour is 1990)
+NEWAISearchfile535.txt: good (length of tour is 51777)
+
+Best tours:
+
+NEWAISearchfile012.txt: best tour has length 56
+NEWAISearchfile012.txt winners : Simulated Annealing
+NEWAISearchfile017.txt: best tour has length 1444
+NEWAISearchfile017.txt winners : Simulated Annealing
+NEWAISearchfile021.txt: best tour has length 2549
+NEWAISearchfile021.txt winners : Simulated Annealing
+NEWAISearchfile026.txt: best tour has length 1473
+NEWAISearchfile026.txt winners : Simulated Annealing
+NEWAISearchfile042.txt: best tour has length 1064
+NEWAISearchfile042.txt winners : Simulated Annealing
+NEWAISearchfile048.txt: best tour has length 12670
+NEWAISearchfile048.txt winners : Simulated Annealing
+NEWAISearchfile058.txt: best tour has length 25395
+NEWAISearchfile058.txt winners : Simulated Annealing
+NEWAISearchfile175.txt: best tour has length 21585
+NEWAISearchfile175.txt winners : Simulated Annealing
+NEWAISearchfile180.txt: best tour has length 1950
+NEWAISearchfile180.txt winners : Simulated Annealing
+NEWAISearchfile535.txt: best tour has length 49124
+NEWAISearchfile535.txt winners : Simulated Annealing
