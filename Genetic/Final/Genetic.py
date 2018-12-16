@@ -19,19 +19,19 @@ def read_file(f_name):
     return int_data, size
 
 
-# def write_file(f_name, size, best, best_tour):
-#     """
-#     This function writes the best tour to its' respective file. To prevent any errors
-#     from occurring upon submission this has been commented out, and the best tour and length
-#     are simply output instead
-#     """
-#     new_file = open("Checking Tours/Genetic/TourfileA/tourNEW"+f_name+".txt", 'w+')
-#     new_file.write("NAME = " + f_name + ",")
-#     new_file.write("\nTOURSIZE = " + str(size) + ",")
-#     new_file.write("\nLENGTH = " + str(best) + ",\n")
-#     for i in range(size):
-#         new_file.write(str(best_tour[i]+1)+",")
-#     new_file.close()
+def write_file(f_name, size, best, best_tour):
+    """
+    This function writes the best tour to its' respective file. To prevent any errors
+    from occurring upon submission this has been commented out, and the best tour and length
+    are simply output instead
+    """
+    new_file = open("Checking Tours/Genetic/TourfileA/tourNEW"+f_name+".txt", 'w+')
+    new_file.write("NAME = " + f_name + ",")
+    new_file.write("\nTOURSIZE = " + str(size) + ",")
+    new_file.write("\nLENGTH = " + str(best) + ",\n")
+    for i in range(size):
+        new_file.write(str(best_tour[i]+1)+",")
+    new_file.close()
 
 
 def to_array(size, city_data):
@@ -139,8 +139,6 @@ class Genetic:
         for i in range(self.loops):
             order_a = self.pick_one()
             order_b = self.pick_one()
-            # while order_a == order_b:
-            #     order_b = self.pick_one()
             order = self.crossover(order_a, order_b)
             order_length = self.distance(order)
             new_population[i], new_length[i] = self.mutate(order_length, order)
@@ -177,7 +175,7 @@ class Genetic:
         mutate_length = prev_length
         best_mutate_tour = order.copy()
         best_mutate = prev_length
-        for i in range(100):
+        for i in range(60):
             previous = mutate_attempt.copy()
             previous_length = mutate_length
             i = random.randint(0, self.file_size - 2)
@@ -213,7 +211,7 @@ class Genetic:
         """
         Execute the algorithm
         """
-        for j in range(100):
+        for j in range(600):
             new_pop, new_len = self.next_generation()
             for i in range(self.loops):
                 if new_len[i] < self.best_tour_length:
@@ -231,13 +229,13 @@ def run(tour_length):
     print(size, "cities took", time.time() - start_time, "to run")
     print("The best tour was of length", current_tour_length)
     print("This was the tour", current_tour)
-    # write_file(tour_length, size, current_tour_length, current_tour)
+    write_file(tour_length, size, current_tour_length, current_tour)
         
 
-run('AISearchfile012')
-run('AISearchfile017')
-run('AISearchfile021')
-run('AISearchfile026')
+# run('AISearchfile012')
+# run('AISearchfile017')
+# run('AISearchfile021')
+# run('AISearchfile026')
 run('AISearchfile042')
 run('AISearchfile048')
 run('AISearchfile058')
